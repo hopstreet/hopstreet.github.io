@@ -1,0 +1,304 @@
+<html>
+
+<head>
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <!-- jQuery 1.7.2+ or Zepto.js 1.0+ -->
+  <link rel="stylesheet" href="E:\projects\rome\Magnific-Popup-master\dist\magnific-popup.css">
+
+  <!-- Magnific Popup core JS file -->
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>Test</title>
+</head>
+
+<style>
+  body {
+   font-family: "Open Sans";
+   padding-top: 100px;
+   background: url("http://www.avestravel.com.ua/tour_image/tour_345_1.jpg");
+  }
+
+  .main {
+    background: #fff;
+    font-family: "Open Sans";
+    padding: 25px;
+    margin: 0 auto 146px auto;
+    width: 70%;
+    -webkit-box-shadow: 1px 1px 8px 1px rgba(110, 110, 110, 0.71);
+    -moz-box-shadow: 1px 1px 8px 1px rgba(110, 110, 110, 0.71);
+    box-shadow: 1px 1px 8px 1px rgba(110, 110, 110, 0.5);
+  }
+
+  .pic {
+    float: left;
+    margin-right: 41px;
+  }
+
+  .pic img {
+    width: 500px;
+    height: 300px;
+  }
+
+  .text {
+    margin-bottom: 15px;
+  }
+
+  .text h1 {
+    color: #b14c4c;
+  }
+
+  .open-popup-link {
+    padding: 15px 45px 15px 45px;
+    background-color: #CD5C5C;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all ease-out 0.3s;
+  }
+
+  .open-popup-link:hover {
+    background-color: #a03838;
+    transition: all ease-out 0.3s;
+  }
+
+  .descrip {
+    font-size: 14px;
+  }
+
+  .clear {
+    clear: left;
+  }
+
+  .white-popup {
+    background: #fff;
+    font-family: "Open Sans";
+    padding: 20px;
+    width: 33%;
+    height: 115px;
+    padding: 31px;
+    box-shadow: 1px 1px 8px 1px rgba(110, 110, 110, 0.3);
+    text-align: center;
+    margin: 20px auto;
+    z-index: 2000;
+  }
+
+  /*.mfp-close{
+  position: relative;
+  bottom: 78px;
+  left: 604px;
+  overflow: visible;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  -webkit-appearance: none;
+  display: block;
+  outline: none;
+  padding: 0;
+  z-index: 1046;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  color:#7f7b7b;
+}
+*/
+
+ .mfp-close {
+    right: 608px;
+    top: 22px;
+    font-size: 18px;
+ }
+
+.mfp-bg {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  overflow: hidden;
+  position: fixed;
+  background: #0b0b0b;
+  opacity: 0.5;
+}
+
+.ok {
+  background-color: #b14c4c;
+  padding: 9px;
+  color: #fff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.email {
+  border: 1px solid #cecece;
+  width: 200px;
+  height: 34px;
+  padding-left: 15px;
+  margin-top: 19px;
+}
+
+.icon {
+  margin-top: 60px;
+  margin-bottom: 20px;
+  position: relative;
+  left: 47%;
+  background-color: #cd5c5c;
+  width: 150px;
+  height: 130px;
+  color: #fff;
+  font-size: 14px;
+}
+
+.romesvg_2 {
+  fill: #ffffff;
+}
+
+.icon p {
+  position: absolute;
+  top: 56%;
+  left: 11%;
+}
+
+.romesvg_main {
+  position: absolute;
+  top: 13%;
+  left: 28%;
+}
+
+.icon_class{
+  padding: 0;
+}
+
+.register{
+  text-align: center;
+  padding: 15px 35px 15px 35px;
+  background-color: #fff;
+  color: #CD5C5C;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all ease-out 0.3s;
+  display: block;
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+.register:hover{
+  background-color: #CD5C5C;
+  transition: all ease-out 0.3s;
+  color:#fff;
+}
+
+.tour{
+    display: block;
+    text-decoration: none;
+    background-color: #cd5c5c;
+    color: #fff;
+    text-align: center;
+    max-width: 200px;
+    margin: 0 auto 30px auto;
+    padding: 10px;
+}
+
+@media (max-width: 1024px) {
+  .pic {
+    margin-right: 41px;
+    width: 100%;
+    height: 70%;
+    overflow: hidden;
+  }
+  .pic img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+</style>
+
+
+<body>
+
+
+<div class="main">
+
+  <div class="pic">
+    <img src="https://static.tonkosti.ru/images/b/b4/%D0%94%D1%80%D0%B5%D0%B2%D0%BD%D0%B8%D0%B5_%D1%80%D1%83%D0%B8%D0%BD%D1%8B%2C_%D0%A0%D0%B8%D0%BC.jpg" alt="">
+  </div>
+
+<div class="text">
+  <h1 class="title"> Рим — один из старейших городов мира, древняя столица Римской империи. </h1>
+  <p class="descrip"> Рим — один из старейших городов мира, древняя столица Римской империи. Ещё в Античности (III век н. э.). Рим стали часто называть Вечным (лат. Roma Aeterna). Представления о «вечности» Рима во многом сохранились и после падения древнеримской цивилизации,
+  принеся соответствующий эпитет в современные языки. Достопримечательности: <i>Площадь Испании,Фонтан   Треви, Римский Форум, Императорские форумы, Колизей, Пантеон и другие.</i>
+  </p>
+  <br>
+
+  <a href="#open_popup" id="popup" class="open-popup-link">Подробнее</a>
+
+</div>
+
+<div class="clear">
+</div>
+
+</div>
+
+  <!-- popup -->
+<div  class="white-popup mfp-hide" id="open_popup">
+  <p>Подпишитесь на наши виртуальные экскурсии</p>
+  <input type="text" class="email" name="" value="" placeholder="Ваш e-mail">
+  <input type="button" class="ok" name="" value="OK">
+  <button title="Close (Esc)" type="button" class="mfp-close">X</button>
+  <div class="mfp-bg mfp-ready"></div>
+</div>
+
+  <!-- icon -->
+<a href="#open_popup" id="regist" class="tour">
+
+  <div>
+    <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="60px" height="60px" viewBox="0 0 45 45.001" style="enable-background:new 0 0 45 45.001;" xml:space="preserve" class="romesvg_main">
+
+    <g>
+    	<g>
+    		<g>
+    			<path  class="romesvg_2" d="M44.432,36.581h-2.193v-0.303c0-0.303-0.245-0.549-0.548-0.549h-1.646V18.509h1.646c0.303,0,0.548-0.243,0.548-0.548
+    				v-1.098c0-0.303-0.245-0.55-0.548-0.55H3.294c-0.304,0-0.549,0.247-0.549,0.55v1.098c0,0.305,0.245,0.548,0.549,0.548h1.646
+    				v17.221H3.294c-0.304,0-0.549,0.246-0.549,0.551v0.302H0.551c-0.303,0-0.548,0.245-0.548,0.549v1.704
+    				c0,0.306,0.245,0.547,0.548,0.547h43.881c0.304,0,0.548-0.241,0.548-0.547V37.13C44.98,36.826,44.735,36.581,44.432,36.581z
+    				 M21.237,35.729V18.509h2.508v17.221H21.237L21.237,35.729z M25.939,35.729V18.509h2.509v17.221H25.939L25.939,35.729z
+    				 M19.043,18.51V35.73h-2.509V18.51H19.043z M30.64,35.729V18.509h2.509v17.221H30.64L30.64,35.729z M14.341,18.51V35.73h-2.508
+    				V18.51H14.341z M37.85,35.729h-2.51V18.509h2.51V35.729z M7.132,18.51h2.51V35.73h-2.51V18.51z"/>
+    			<path  class="romesvg_2" d="M0.55,15.494h43.881c0.009,0,0.016,0,0.021,0c0.303,0,0.548-0.247,0.548-0.55c0-0.265-0.187-0.485-0.436-0.536
+    				L22.694,5.66c-0.131-0.056-0.277-0.056-0.408,0L0.346,14.434c-0.245,0.1-0.386,0.356-0.336,0.613
+    				C0.063,15.307,0.289,15.494,0.55,15.494z"/>
+    		</g>
+    	</g>
+    </g>
+   </svg>
+
+  <p>Экскурсии в Рим</p>
+
+  </div> 
+
+</a>
+
+
+<a href="#" class="register">Записаться</a>
+
+<!-- init popup -->
+<script src="E:\projects\rome\Magnific-Popup-master\dist\jquery.magnific-popup.js"></script>
+
+<script>
+    $('#popup,#regist').magnificPopup({
+      type: 'inline',
+      midClick: true
+    });
+</script>
+
+
+
+
+</body>
+
+
+</html>
