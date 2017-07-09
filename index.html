@@ -16,16 +16,17 @@
 
 <style>
   body {
-   font-family: "Open Sans";
-   padding-top: 100px;
-   background: url("http://www.avestravel.com.ua/tour_image/tour_345_1.jpg");
+    font-family: "Open Sans";
+    padding-top: 100px;
+    background: url("http://www.avestravel.com.ua/tour_image/tour_345_1.jpg");
+    background-attachment: fixed;
   }
 
   .main {
     background: #fff;
     font-family: "Open Sans";
     padding: 25px;
-    margin: 0 auto 146px auto;
+    margin: 0 auto 70px auto;
     width: 70%;
     -webkit-box-shadow: 1px 1px 8px 1px rgba(110, 110, 110, 0.71);
     -moz-box-shadow: 1px 1px 8px 1px rgba(110, 110, 110, 0.71);
@@ -84,111 +85,108 @@
     margin: 20px auto;
     z-index: 2000;
   }
-
   /*.mfp-close{
-  position: relative;
-  bottom: 78px;
-  left: 604px;
-  overflow: visible;
-  cursor: pointer;
-  background: transparent;
-  border: 0;
-  -webkit-appearance: none;
-  display: block;
-  outline: none;
-  padding: 0;
-  z-index: 1046;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  color:#7f7b7b;
+    position: relative;
+    bottom: 78px;
+    left: 604px;
+    overflow: visible;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    -webkit-appearance: none;
+    display: block;
+    outline: none;
+    padding: 0;
+    z-index: 1046;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color:#7f7b7b;
 }
 */
 
- .mfp-close {
+  .mfp-close {
     right: 608px;
     top: 22px;
     font-size: 18px;
- }
+  }
 
-.mfp-bg {
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  overflow: hidden;
-  position: fixed;
-  background: #0b0b0b;
-  opacity: 0.5;
-}
+  .mfp-bg {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+    position: fixed;
+    background: #0b0b0b;
+    opacity: 0.5;
+  }
 
-.ok {
-  background-color: #b14c4c;
-  padding: 9px;
-  color: #fff;
-  outline: none;
-  border: none;
-  cursor: pointer;
-}
+  .ok {
+    background-color: #b14c4c;
+    padding: 9px;
+    color: #fff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+  }
 
-.email {
-  border: 1px solid #cecece;
-  width: 200px;
-  height: 34px;
-  padding-left: 15px;
-  margin-top: 19px;
-}
+  .email {
+    border: 1px solid #cecece;
+    width: 200px;
+    height: 34px;
+    padding-left: 15px;
+    margin-top: 19px;
+  }
 
-.icon {
-  margin-top: 60px;
-  margin-bottom: 20px;
-  position: relative;
-  left: 47%;
-  background-color: #cd5c5c;
-  width: 150px;
-  height: 130px;
-  color: #fff;
-  font-size: 14px;
-}
+  .icon {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    position: relative;
+    left: 47%;
+    background-color: #cd5c5c;
+    width: 150px;
+    height: 130px;
+    color: #fff;
+    font-size: 14px;
+  }
 
-.romesvg_2 {
-  fill: #ffffff;
-}
+  .romesvg_2 {
+    fill: #ffffff;
+  }
 
-.icon p {
-  position: absolute;
-  top: 56%;
-  left: 11%;
-}
+  .icon p {
+    position: absolute;
+    top: 56%;
+    left: 11%;
+  }
 
-.romesvg_main {
+  .romesvg_main {}
 
-}
+  .icon_class {
+    padding: 0;
+  }
 
-.icon_class{
-  padding: 0;
-}
+  .register {
+    text-align: center;
+    padding: 15px 30px 15px 30px;
+    background-color: #fff;
+    color: #CD5C5C;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all ease-out 0.3s;
+    display: block;
+    max-width: 200px;
+    margin: 0 auto;
+  }
 
-.register{
-  text-align: center;
-  padding: 15px 30px 15px 30px;
-  background-color: #fff;
-  color: #CD5C5C;
-  text-decoration: none;
-  cursor: pointer;
-  transition: all ease-out 0.3s;
-  display: block;
-  max-width: 200px;
-  margin: 0 auto;
-}
+  .register:hover {
+    background-color: #CD5C5C;
+    transition: all ease-out 0.3s;
+    color: #fff;
+  }
 
-.register:hover{
-  background-color: #CD5C5C;
-  transition: all ease-out 0.3s;
-  color:#fff;
-}
-
-.tour{
+  .tour {
     display: block;
     text-decoration: none;
     background-color: #cd5c5c;
@@ -197,64 +195,61 @@
     max-width: 200px;
     margin: 0 auto 30px auto;
     padding: 10px;
-}
-
-@media (max-width: 1024px) {
-  .pic {
-    margin-right: 41px;
-    width: 100%;
-    height: 70%;
-    overflow: hidden;
   }
-  .pic img {
-    width: 100%;
-    height: auto;
+
+  @media (max-width: 1024px) {
+    .pic {
+      margin-right: 41px;
+      width: 100%;
+      height: 70%;
+      overflow: hidden;
+    }
+    .pic img {
+      width: 100%;
+      height: auto;
+    }
   }
-}
-
-
 </style>
 
 
 <body>
 
+  <div class="main">
 
-<div class="main">
+    <div class="pic">
+      <img src="https://static.tonkosti.ru/images/b/b4/%D0%94%D1%80%D0%B5%D0%B2%D0%BD%D0%B8%D0%B5_%D1%80%D1%83%D0%B8%D0%BD%D1%8B%2C_%D0%A0%D0%B8%D0%BC.jpg" alt="">
+    </div>
 
-  <div class="pic">
-    <img src="https://static.tonkosti.ru/images/b/b4/%D0%94%D1%80%D0%B5%D0%B2%D0%BD%D0%B8%D0%B5_%D1%80%D1%83%D0%B8%D0%BD%D1%8B%2C_%D0%A0%D0%B8%D0%BC.jpg" alt="">
+    <div class="text">
+      <h1 class="title"> Рим — один из старейших городов мира, древняя столица Римской империи. </h1>
+      <p class="descrip"> Рим — один из старейших городов мира, древняя столица Римской империи. Ещё в Античности (III век н. э.). Рим стали часто называть Вечным (лат. Roma Aeterna). Представления о «вечности» Рима во многом сохранились и после падения древнеримской цивилизации,
+        принеся соответствующий эпитет в современные языки. Достопримечательности: <i>Площадь Испании,Фонтан   Треви, Римский Форум, Императорские форумы, Колизей, Пантеон и другие.</i>
+      </p>
+      <br>
+
+      <a href="#open_popup" id="popup" class="open-popup-link">Подробнее</a>
+
+    </div>
+
+    <div class="clear">
+    </div>
+
   </div>
 
-<div class="text">
-  <h1 class="title"> Рим — один из старейших городов мира, древняя столица Римской империи. </h1>
-  <p class="descrip"> Рим — один из старейших городов мира, древняя столица Римской империи. Ещё в Античности (III век н. э.). Рим стали часто называть Вечным (лат. Roma Aeterna). Представления о «вечности» Рима во многом сохранились и после падения древнеримской цивилизации,
-  принеся соответствующий эпитет в современные языки. Достопримечательности: <i>Площадь Испании,Фонтан   Треви, Римский Форум, Императорские форумы, Колизей, Пантеон и другие.</i>
-  </p>
-  <br>
-
-  <a href="#open_popup" id="popup" class="open-popup-link">Подробнее</a>
-
-</div>
-
-<div class="clear">
-</div>
-
-</div>
-
   <!-- popup -->
-<div  class="white-popup mfp-hide" id="open_popup">
-  <p>Подпишитесь на наши виртуальные экскурсии</p>
-  <input type="text" class="email" name="" value="" placeholder="Ваш e-mail">
-  <input type="button" class="ok" name="" value="OK">
-  <button title="Close (Esc)" type="button" class="mfp-close">X</button>
-  <div class="mfp-bg mfp-ready"></div>
-</div>
+  <div class="white-popup mfp-hide" id="open_popup">
+    <p>Подпишитесь на наши виртуальные экскурсии</p>
+    <input type="text" class="email" name="" value="" placeholder="Ваш e-mail">
+    <input type="button" class="ok" name="" value="OK">
+    <button title="Close (Esc)" type="button" class="mfp-close">X</button>
+    <div class="mfp-bg mfp-ready"></div>
+  </div>
 
   <!-- icon -->
-<a href="#open_popup" id="regist" class="tour">
+  <a href="#open_popup" id="regist" class="tour">
 
-  <div>
-    <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="60px" height="60px" viewBox="0 0 45 45.001" style="enable-background:new 0 0 45 45.001;" xml:space="preserve" class="romesvg_main">
+    <div>
+      <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="60px" height="60px" viewBox="0 0 45 45.001" style="enable-background:new 0 0 45 45.001;" xml:space="preserve" class="romesvg_main">
 
     <g>
     	<g>
@@ -274,24 +269,24 @@
     </g>
    </svg>
 
-  <p>Экскурсии в Рим</p>
+      <p>Экскурсии в Рим</p>
 
-  </div>
+    </div>
 
-</a>
+  </a>
 
 
-<a href="#" class="register">Записаться</a>
+  <a href="#" class="register">Записаться</a>
 
-<!-- init popup -->
-<script src="\Magnific-Popup-master\dist\jquery.magnific-popup.js"></script>
+  <!-- init popup -->
+  <script src="\Magnific-Popup-master\dist\jquery.magnific-popup.js"></script>
 
-<script>
+  <script>
     $('#popup,#regist').magnificPopup({
       type: 'inline',
       midClick: true
     });
-</script>
+  </script>
 
 
 
