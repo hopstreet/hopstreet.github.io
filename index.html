@@ -7,7 +7,9 @@
   <link rel="stylesheet" href="\Magnific-Popup-master\dist\magnific-popup.css">
   <!-- flexslider css -->
   <link rel="stylesheet" href="\FlexSlider\flexslider.css" type="text/css" media="screen" />
-
+ <!-- smoothScroll -->
+  <script src="\smoothScroll\jquery.mCustomScrollbar.concat.min.js"></script>
+  <link rel="stylesheet" href="\smoothScroll\jquery.mCustomScrollbar.css">
 
 
   <!-- jQuery 1.7.2+ or Zepto.js 1.0+ -->
@@ -17,6 +19,11 @@
 </head>
 
 <style>
+
+  html, body{
+  height: 100%;
+  }
+
   body {
     font-family: "Open Sans";
     padding-top: 100px;
@@ -387,6 +394,18 @@ $(window).load(function() {
 });
 </script>
 
+<!-- scroll -->
+<script>
+(function($){
+$(window).load(function(){
+
+$("body").mCustomScrollbar({
+theme:"dark-thin"
+});
+
+});
+})(jQuery);
+</script>
 
 </body>
 
