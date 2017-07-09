@@ -3,12 +3,14 @@
 <head>
 
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-  <!-- jQuery 1.7.2+ or Zepto.js 1.0+ -->
-  <link rel="stylesheet" href="\Magnific-Popup-master\dist\magnific-popup.css">
-
   <!-- Magnific Popup core JS file -->
+  <link rel="stylesheet" href="\Magnific-Popup-master\dist\magnific-popup.css">
+  <!-- flexslider css -->
+  <link rel="stylesheet" href="\FlexSlider\flexslider.css" type="text/css" media="screen" />
 
 
+
+  <!-- jQuery 1.7.2+ or Zepto.js 1.0+ -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <title>Rome</title>
@@ -290,6 +292,31 @@
 
 </div>
 
+<div class="flexslider">
+  <ul class="slides">
+    <li data-thumb="slide1-thumb.jpg">
+      <img src="\pics\r1.jpg" />
+    </li>
+    <li data-thumb="slide2-thumb.jpg">
+      <img src="\pics\r2.jpg" />
+    </li>
+    <li data-thumb="slide3-thumb.jpg">
+      <img src="\pics\r3.jpg" />
+    </li>
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
   <!-- popup -->
   <div class="white-popup mfp-hide" id="open_popup">
     <p>Подпишитесь на наши виртуальные экскурсии</p>
@@ -300,7 +327,11 @@
   </div>
 
   <!-- icon -->
+<div class="feed">
+
   <a href="#open_popup" id="regist" class="tour">
+
+
 
     <div>
       <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="60px" height="60px" viewBox="0 0 45 45.001" style="enable-background:new 0 0 45 45.001;" xml:space="preserve" class="romesvg_main">
@@ -329,8 +360,9 @@
 
   </a>
 
-
   <a href="#" class="register">Записаться</a>
+
+</div>
 
   <!-- init popup -->
   <script src="\Magnific-Popup-master\dist\jquery.magnific-popup.js"></script>
@@ -343,6 +375,17 @@
   </script>
 
 
+<!-- init slider -->
+<script defer src="\FlexSlider\jquery.flexslider-min.js"></script>
+
+<script type="text/javascript">
+$(window).load(function() {
+  $('.flexslider').flexslider({
+    animation: "slide",
+    controlNav: "thumbnails"
+  });
+});
+</script>
 
 
 </body>
