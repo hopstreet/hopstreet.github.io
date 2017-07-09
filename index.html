@@ -35,6 +35,17 @@
     margin-bottom: 100px;
   }
 
+  .header_title{
+    margin-left: 190px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+.header_title::before{
+    margin-right: 20px;
+    content: 'logo';
+}
+
   body {
     margin: 0;
     font-family: "Open Sans";
@@ -233,7 +244,7 @@
 
 
 <header>
-<p>Знакомство с Римом</p>
+<p class="header_title">Знакомство с Римом</p>
 </header>
 
 <body>
@@ -402,6 +413,7 @@
 
 <script type="text/javascript">
 // $(window).load(function() {
+console.log($):
   $('.flexslider').flexslider({
     animation: "slide",
     controlNav: "thumbnails"
