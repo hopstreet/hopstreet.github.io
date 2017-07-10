@@ -141,7 +141,7 @@ button::-moz-focus-inner {
   .mfp-close:focus {
     opacity: 1; }
   .mfp-close:active {
-    top: 1px; }
+    top: 0px; }
 
 .mfp-close-btn-in .mfp-close {
   color: #333; }
