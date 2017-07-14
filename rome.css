@@ -19,6 +19,7 @@
 
   .header_menu li{
     display: inline;
+    margin-right: 50px;
   }
 
   .header_menu a{
