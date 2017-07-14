@@ -21,6 +21,10 @@
     display: inline;
   }
 
+  .header_menu a{
+    text-decoration: none;
+  }
+
   .header_logo{
     vertical-align: middle;
     fill: #cd5c5c;
