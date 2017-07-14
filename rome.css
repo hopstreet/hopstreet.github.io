@@ -27,8 +27,15 @@
   }
 
   .header_logo{
+    bottom: 25px;
+    margin-right: 90px;
+    position: relative;
+    float: left;
     width: 360px;
-    vertical-align: middle;
+  }
+
+  .header_nav{
+    display: inline-block;
   }
 
   .header_title{
